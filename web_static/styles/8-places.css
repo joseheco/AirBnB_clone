@@ -13,20 +13,18 @@ article{
     border-radius: 4px;
     display: inline-block;
     vertical-align: top;
-    height: 380px;
+    height: 250px;
 }
 article h2{
     font-size: 30px;
     text-align: center;
     margin-top: 0px;
     position: absolute;
-    
 }
 .title{
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     justify-content: center;
-   
 }
 .price_by_night{
     color: #FF5A5F;
@@ -37,4 +35,40 @@ article h2{
     font-size: 30px;
     line-height: 60px;
     margin-left: auto;
+    margin-top: -10px;
 }
+.information{
+    height: 80px;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    display: flex;
+    justify-content: space-evenly;
+}
+.information p{
+    line-height: 100px;
+}
+.max_guest{
+    background-image: url(../images/people.png);
+    background-repeat: no-repeat;
+    background-position: 50% 20%;    
+}
+.number_rooms{
+    background-image: url(../images/bed.png);
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+.number_bathrooms{
+    background-image: url(../images/bath.png);
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+.user{
+    text-align: left;
+}
+.user p{
+    margin: 15px 0px 5px;
+}
+.description{
+    text-align: left;
+}
+
